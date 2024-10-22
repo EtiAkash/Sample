@@ -1,0 +1,6 @@
+<button (click) = "onClick()">Get courses</button>
+<div *ngIf="result != null">
+  <div *ngFor="let i of result">
+    <p>{{i.name}}</p>
+  </div>
+</div>
